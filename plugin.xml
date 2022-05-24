@@ -18,6 +18,7 @@
 
     <!-- android -->
     <platform name="android">
+        <preference name="android-targetSdkVersion" value="30"/>
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="SmsReceiverPlugin">
                 <param name="android-package" value="ratson.cordova.sms_receiver.SmsReceiverPlugin" />
